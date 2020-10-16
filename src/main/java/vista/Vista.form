@@ -24,15 +24,10 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
-              <Component id="jlabelTigulo" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="168" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Component id="btnResultado" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                      <Component id="jlabelTigulo" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
@@ -41,18 +36,28 @@
                               <Component id="jlabelPrimerNumero" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                               <Component id="txtSegundoNumero" min="-2" pref="32" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jlabelResultado" min="-2" pref="9" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="jlabelSegundoNumero" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlabelSegundoNumero" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="btnResultado" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="txtPrimerNumero" min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Component id="jlabelResultado" min="-2" pref="27" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtPrimerNumero" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+              <EmptySpace pref="168" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -62,20 +67,20 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jlabelTigulo" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="47" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jlabelPrimerNumero" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtSegundoNumero" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jlabelResultado" alignment="1" min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlabelPrimerNumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSegundoNumero" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jlabelSegundoNumero" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtPrimerNumero" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnResultado" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnResultado" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlabelResultado" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
           </Group>
       </Group>
